@@ -53,7 +53,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         ListView listView = (ListView) findViewById(R.id.deviceList);
         listView.setAdapter(adapter);
-
+        // test commit
 
 
 
