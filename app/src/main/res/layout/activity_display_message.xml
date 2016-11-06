@@ -18,10 +18,33 @@
         android:layout_alignParentStart="true"
         android:id="@+id/textView2" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="testStuff"
+        android:layout_alignBaseline="@+id/editText3"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignParentEnd="true" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/deviceList" />
+        android:id="@+id/deviceList"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
